@@ -41,4 +41,25 @@ function dragElement(elmnt) {
     document.onmouseup = null;
     document.onmousemove = null;
   }
+  
+  function changeSrc(loc) {
+    document.getElementById('skibframe').src = loc;
+  }
+}
+
+function openDiv(){
+  document.getElementById('skibframe').src = './assets/Games/mariofps.html';
+  document.getElementById('mydiv').style.visibility = 'visible';
+}
+
+function changeURL(){
+  document.getElementById('skibframe').innerHTML = document.getElementById('urlinput').innerText;
+  //document.getElementById('skibframe').innerHTML = playerScore;
+
+}
+
+function closeDiv(){
+  document.getElementById('skibframe').src = 'about:blank';
+  document.getElementById('mydiv').style.visibility = 'hidden';
+}
 }
