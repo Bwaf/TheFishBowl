@@ -54,7 +54,7 @@ body {
 }
 
 .skyblock {
-    background-color: black;
+    /*background-color: black;*/
     background-image: url(./assets/img/skyblockCover.jpeg);
     border-radius: 20px;
     width: 500px;
