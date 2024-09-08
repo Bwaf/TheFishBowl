@@ -68,6 +68,8 @@ body {
 }
 
 #mydiv {
+  width: 75%;
+  height: 75%;
   position: absolute;
   z-index: 9;
   background-color: #f1f1f1;
