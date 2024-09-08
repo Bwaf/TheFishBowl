@@ -42,9 +42,6 @@ function dragElement(elmnt) {
     document.onmousemove = null;
   }
   
-  function changeSrc(loc) {
-    document.getElementById('skibframe').src = loc;
-  }
 }
 
 function openDiv(){
