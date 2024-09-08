@@ -62,4 +62,3 @@ function closeDiv(){
   document.getElementById('skibframe').src = 'about:blank';
   document.getElementById('mydiv').style.visibility = 'hidden';
 }
-}
