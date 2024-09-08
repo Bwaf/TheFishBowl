@@ -54,6 +54,7 @@ body {
 }
 
 .skyblock {
+  margin-left: 8px;
     background-color: #36395A;
     border-radius: 20px;
     width: 350px;
