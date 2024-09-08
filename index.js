@@ -49,12 +49,6 @@ function openDiv(){
   document.getElementById('mydiv').style.visibility = 'visible';
 }
 
-function changeURL(){
-  document.getElementById('skibframe').innerHTML = document.getElementById('urlinput').innerText;
-  //document.getElementById('skibframe').innerHTML = playerScore;
-
-}
-
 function closeDiv(){
   document.getElementById('skibframe').src = 'about:blank';
   document.getElementById('mydiv').style.visibility = 'hidden';
