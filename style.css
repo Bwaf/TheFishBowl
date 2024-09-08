@@ -52,3 +52,8 @@ body {
   box-shadow: #D6D6E7 0 3px 7px inset;
   transform: translateY(2px);
 }
+
+.skyblock {
+    background-image: url(/assets/img/skyblockCover.jpeg);
+    border-radius: 20px;
+}
