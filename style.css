@@ -101,3 +101,31 @@ body {
   float: right;
   margin-right: 5px;
 }
+
+@keyframes glitch {
+  0% {
+    transform: translate(0);
+  }
+  25% {
+    transform: translate(2px, -2px);
+  }
+  50% {
+    transform: translate(-2px, 2px);
+  }
+  75% {
+    transform: translate(2px, -2px);
+  }
+  100% {
+    transform: translate(0);
+  }
+}
+
+.text-glitch {
+  animation: glitch 1.5s infinite;
+  color: #fff;
+  text-shadow: 
+    0 0 2px #00f,
+    0 0 2px #00f,
+    0 0 2px #00f,
+    0 0 2px #00f;
+}
