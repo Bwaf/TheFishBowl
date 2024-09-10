@@ -1,2 +1,4 @@
 # TheFishBowl
-my new project of learning new methods and new coding features for my discord server, and trackers for games the me and my friends play!
+https://bwaf.github.io/TheFishBowl
+
+I started this project because that I was bored and was grounded so decided to make a website for my discord server :)))
