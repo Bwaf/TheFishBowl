@@ -113,7 +113,7 @@ body {
     transform: translate(-2px, 2px);
   }
   75% {
-    transform: translate(4px, -2px);
+    transform: translate(2px, 2px);
   }
   100% {
     transform: translate(0);
